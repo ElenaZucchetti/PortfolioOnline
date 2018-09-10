@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+ <meta charset="utf-8">
+ <title>ElenaZucchetti</title>
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css">
+ <link rel="stylesheet" href="style.css">
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+
+<header class="header clearfix">
+ <a href="index.html" class="header_logo"></a>
+ <a href="" class="header_icon-bar">
+   <span></span>
+   <span></span>
+   <span></span>
+ </a>
+ <ul class="header_menu animate">
+   <li class="header_menu_item"><a href="Illustrazioni.html">Illustrazioni</a></li>
+   <li class="header_menu_item"><a href="Foto.html">Fotografie</a></li>
+   <li class="header_menu_item"><a href="Progetti.html">Progetti</a></li>
+   <li class="header_menu_item"><a href="About.html">About me</a></li>
+   <li class="header_menu_item"><a href="Contatti.html">Contatti</a></li>
+ </ul>
+ </header>
+
+ <section class="cover cover--contatti">
+   <div class="cover_filter"></div>
+   <div class="cover_caption">
+     <div class="cover_caption_copy">
+       <h1 class="nome">Contattami</h1>
+     </div>
+   </div>
+ </section>
+
+ <article class="Contatti">
+
+   <div class="Contatti_copy">
+     <h3><img src="Immagini/IconEmail.png"></h3>
+     <h3>elena.zucchetti@virgilio.it</h3>
+     <h3><img src="Immagini/IconWhatsapp.png">  <img src="Immagini/IconTelegram.png"></h3>
+     <h3>377 3116264</h3>
+     <h3><img src="Immagini/IconFacebook.png"></h3>
+     <h3>Elena Zucchetti</h3>
+   </div>
+ </article>
+
+ <footer class="footer">
+   <p>Copyright - 2018 ElenaZucchetti.com</p>
+ </footer>
+
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(Document).ready(function(){
+
+ $(".header_icon-bar").click(function(e){
+   $(".header_menu").toggleClass("is-open");
+   e.preventDefault();
+ });
+
+});
+</script>
+</body>
+</html>

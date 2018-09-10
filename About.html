@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+ <meta charset="utf-8">
+ <title>ElenaZucchetti</title>
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css">
+ <link rel="stylesheet" href="style.css">
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+
+<header class="header clearfix">
+ <a href="index.html" class="header_logo"></a>
+ <a href="" class="header_icon-bar">
+   <span></span>
+   <span></span>
+   <span></span>
+ </a>
+ <ul class="header_menu animate">
+   <li class="header_menu_item"><a href="Illustrazioni.html">Illustrazioni</a></li>
+   <li class="header_menu_item"><a href="Foto.html">Fotografie</a></li>
+   <li class="header_menu_item"><a href="Progetti.html">Progetti</a></li>
+   <li class="header_menu_item"><a href="About.html">About me</a></li>
+   <li class="header_menu_item"><a href="Contatti.html">Contatti</a></li>
+ </ul>
+ </header>
+
+ <section class="cover cover--about">
+   <div class="cover_filter"></div>
+   <div class="cover_caption">
+     <div class="cover_caption_copy">
+       <h1 class="nome">About me</h1>
+     </div>
+   </div>
+ </section>
+
+ <article class="About">
+
+   <div class="About_copy">
+     <p>“Amo disegnare, lo considero un linguaggio completo, fatto di forme e stili diversi.
+       Per questo è molto importante una fase di progettazione, una ricerca che porta a definire
+       non solo la griglia di una illustrazione/disegno, ma anche la modalità di realizzazione.
+       Disegni a mano libera, a china, a computer o ad acquerello daranno risultati molto diversi tra loro.
+     <br>Vorrei diventare illustratrice di libri per bambini e ragazzi, ciò mi porterebbe ad una costante
+     ricerca stilistica per libri diversi e ad approfondire o imparare tecniche nuove.
+     <br>Inoltre ho sempre amato perdermi in un buon libro e vivere ogni volta una diversa avventura.
+     <br>Oltre a frequentare il Politecnico un impegno che mi prende molto tempo è essere capo scout AGESCI,
+     un cammino educativo per bambini e ragazzi in cui è prevista anche qui molta progettazione delle attività svolte.”</p>
+     <h3>Titoli di studio</h3>
+     <p>- <i>Diploma di liceo scientifico tradizionale</i>, conseguito nel Liceo Scientifico Leonardo da Vinci (Mi).
+     <br><br>- sto studiando presso il <i>Politecnico di Milano</i>, scuola del Design, corso di laurea in <i>Design della Comunicazione</i>.</p>
+     <h3>Skills</h3>
+     <p><img src="Immagini/IconIllustrator.png">  <img src="Immagini/IconIndesign.png">  <img src="Immagini/IconPhotoshop.png">  <img src="Immagini/IconAfterEffects.png">  <img src="Immagini/Lightroom.png">
+       <br><img src="Immagini/IconWord.png">   <img src="Immagini/IconExcel.png"></p>
+     <br>
+     <h4>Portfolio Online</h4>
+     <p>"Questo portfolio online nasce come progetto individuale del corso di Elementi di Informatica, dei docenti F. Bruschi e V. Rana.
+     <br>L'intento è quello di creare la struttura di un portfolio web, che potrò poi sfruttare come portfolio
+     personale da portare alla laurea, caricando tutti i lavori da me fatti in università (per ora ne sono
+     presenti solo alcuni, a scopo dimostrativo)."</p>
+   </div>
+ </article>
+
+ <footer class="footer">
+   <p>Copyright - 2018 ElenaZucchetti.com</p>
+ </footer>
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(Document).ready(function(){
+
+ $(".header_icon-bar").click(function(e){
+   $(".header_menu").toggleClass("is-open");
+   e.preventDefault();
+ });
+
+});
+</script>
+</body>
+</html>

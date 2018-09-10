@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+ <meta charset="utf-8">
+ <title>ElenaZucchetti</title>
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css">
+ <link rel="stylesheet" href="style.css">
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+
+<header class="header clearfix">
+ <a href="index.html" class="header_logo"></a>
+ <a href="" class="header_icon-bar">
+   <span></span>
+   <span></span>
+   <span></span>
+ </a>
+ <ul class="header_menu animate">
+   <li class="header_menu_item"><a href="Illustrazioni.html">Illustrazioni</a></li>
+   <li class="header_menu_item"><a href="Foto.html">Fotografie</a></li>
+   <li class="header_menu_item"><a href="Progetti.html">Progetti</a></li>
+   <li class="header_menu_item"><a href="About.html">About me</a></li>
+   <li class="header_menu_item"><a href="Contatti.html">Contatti</a></li>
+ </ul>
+ </header>
+
+ <section class="cover">
+   <div class="cover_filter"></div>
+   <div class="cover_caption">
+     <div class="cover_caption_copy">
+       <h1 class="nome">Elena Zucchetti</h1>
+       <h3 class="sottotitolo">illustratrice e communication designer</h3>
+       <a class="EtichettaLab">Portfolio esempio</a>
+     </div>
+   </div>
+ </section>
+
+<section class="cards clearfix">
+  <div class="card">
+    <a href="Illustrazioni.html">
+    <img class="card_image" src="Immagini/UnaRagazzaEilMare.png" alt="" width="350" height=auto>
+    <div class="card_copy">
+    <h3 class="TitleCard">Illustrazioni</h3>
+    <p>Tutte le mie illustrazioni.</p>
+    </div></a>
+  </div>
+  <div class="card">
+    <a href="Foto.html">
+    <img class="card_image" src="Immagini/Foto5G.png" alt="" width="350" height=auto>
+    <div class="card_copy">
+    <h3 class="TitleCard">Fotografie</h3>
+    <p>Tutte le mie fotografie.</p>
+  </div></a>
+  </div>
+  <div class="card">
+    <a href="Progetti.html">
+    <img class="card_image" src="Immagini/ProgettiG.png" alt="" width="350" height=auto>
+    <div class="card_copy">
+    <h3 class="TitleCard">Progetti</h3>
+    <p>Tutti i miei progetti, universitari e non.</p>
+  </div></a>
+  </div>
+</section>
+
+<footer class="footer">
+  <p>Copyright - 2018 ElenaZucchetti.com</p>
+</footer>
+
+
+
+
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(Document).ready(function(){
+
+ $(".header_icon-bar").click(function(e){
+   $(".header_menu").toggleClass("is-open");
+   e.preventDefault();
+ });
+
+});
+</script>
+</body>
+</html>

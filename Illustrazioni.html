@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+ <meta charset="utf-8">
+ <title>ElenaZucchetti</title>
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css">
+ <link rel="stylesheet" href="style.css">
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+
+<header class="header clearfix">
+ <a href="index.html" class="header_logo"></a>
+ <a href="" class="header_icon-bar">
+   <span></span>
+   <span></span>
+   <span></span>
+ </a>
+ <ul class="header_menu animate">
+   <li class="header_menu_item"><a href="Illustrazioni.html">Illustrazioni</a></li>
+   <li class="header_menu_item"><a href="Foto.html">Fotografie</a></li>
+   <li class="header_menu_item"><a href="Progetti.html">Progetti</a></li>
+   <li class="header_menu_item"><a href="About.html">About me</a></li>
+   <li class="header_menu_item"><a href="Contatti.html">Contatti</a></li>
+ </ul>
+ </header>
+
+ <section class="cover cover--Illustrazioni">
+   <div class="cover_filter"></div>
+   <div class="cover_caption">
+     <div class="cover_caption_copy">
+       <h1 class="nome">Illustrazioni</h1>
+     </div>
+   </div>
+ </section>
+
+ <article class="Intro_Illustrazioni">
+
+   <div class="Intro_Illustrazioni_copy">
+     <p>“Un pittore mi disse che nessuno può disegnare un albero senza diventare in qualche modo un albero; o disegnare un bambino studiando soltanto il profilo della sua forma... ma col guardare per un po’ di tempo i suoi movimenti e i giochi, il pittore entra nella sua natura e quindi può disegnarlo.” </p>
+     <h5 align=right>Ralph Waldo Emerson</h5>
+   </div>
+ </article>
+
+<section class="cards--PagineInterne clearfix">
+  <article id="01" class="card--pi">
+    <a href="#01"><img class="card_image--pi" src="Immagini/UnaRagazzaEilMare.png" alt="" width=100% height=auto></a>
+    <div class="card_copy--pi">
+        <div class="TitleCard--pi">
+        <h2>Una ragazza e il mare</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In in massa ultrices diam lobortis convallis quis in risus. Phasellus a augue vitae sapien condimentum condimentum quis at eros. In nisl lacus, pharetra nec commodo quis, accumsan ac sapien.</p>
+        </div>
+    </div>
+  </article><article id="02" class="card--pi">
+    <a href="#02"><img class="card_image--pi" src="Immagini/CardGiacomoG.png" alt="" width=100% height=auto></a>
+    <div class="card_copy--pi">
+        <h2 class="TitleCard--pi">Sarò: un Carnevale reale</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In in massa ultrices diam lobortis convallis quis in risus. Phasellus a augue vitae sapien condimentum condimentum quis at eros. In nisl lacus, pharetra nec commodo quis, accumsan ac sapien.</p>
+    </div>
+  </article><article id="03" class="card--pi">
+    <a href="#03"><img class="card_image--pi" src="Immagini/CardFrancescoG.png" alt="" width=100% height=auto></a>
+    <div class="card_copy--pi">
+        <h2 class="TitleCard--pi">Ero: testimoni del tempo</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur
+        <br>adipiscing elit. In in massa ultrices
+        <br>diam lobortis convallis quis in risus.
+        <br>Phasellus a augue vitae sapien
+        <br>condimentum condimentum quis at eros.</p>
+    </div>
+  </article><article id="04" class="card--pi">
+    <a href="#04"><img class="card_image--pi" src="Immagini/Mandala.png" alt="" width=100% height=auto></a>
+    <div class="card_copy--pi">
+        <h2 class="TitleCard--pi">Mandala</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In in massa ultrices diam lobortis convallis quis in risus. Phasellus a augue vitae sapien condimentum condimentum quis at eros. In nisl lacus, pharetra nec commodo quis, accumsan ac sapien.</p>
+    </div>
+  </article><article id="05" class="card--pi">
+    <a href="#05"><img class="card_image--pi" src="Immagini/CardMulan.png" alt="" width=100% height=auto></a>
+    <div class="card_copy--pi">
+        <div class="TitleCard--pi">
+        <h2 class="TitleCard--pi">Mulan & Fa Ping</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In in massa ultrices diam lobortis convallis quis in risus. Phasellus a augue vitae sapien condimentum condimentum quis at eros. In nisl lacus, pharetra nec commodo quis, accumsan ac sapien.</p>
+        </div>
+    </div>
+  </article><article id="06" class="card--pi">
+    <a href="#06"><img class="card_image--pi" src="Immagini/DreamCatcher.png" alt="" width=100% height=auto></a>
+    <div class="card_copy--pi">
+        <h2 class="TitleCard--pi">DreamCatcher</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In in massa ultrices diam lobortis convallis quis in risus. Phasellus a augue vitae sapien condimentum condimentum quis at eros. In nisl lacus, pharetra nec commodo quis, accumsan ac sapien.</p>
+    </div>
+  </article>
+</section>
+
+<footer class="footer">
+  <p>Copyright - 2018 ElenaZucchetti.com</p>
+</footer>
+
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(Document).ready(function(){
+
+ $(".header_icon-bar").click(function(e){
+   $(".header_menu").toggleClass("is-open");
+   e.preventDefault();
+ });
+
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Chisel Mark';
+    src: url('ChiselMark.eot');
+    src: url('ChiselMark.eot?#iefix') format('embedded-opentype'),
+        url('ChiselMark.woff2') format('woff2'),
+        url('ChiselMark.woff') format('woff'),
+        url('ChiselMark.ttf') format('truetype'),
+        url('ChiselMark.svg#ChiselMark') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
